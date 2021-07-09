@@ -1,24 +1,14 @@
-import React, { Component } from 'react';    
-import './App.css';    
-import Form from './Form'; 
-import DatePicker from 'react-date-picker';
+import React, { Component } from "react";
+import "./App.css";
+import Form from "./Form";
+import DatePicker from "react-date-picker";
 
-
-
-
-
-    
-export default class App extends Component {    
-  render() {    
-    return (    
-      <div className="content">   
-        
-        <DatePicker/>
-        <Form/>
-        
-      
-      </div >    
-    );    
-  }    
+export default class App extends Component {
+  render() {
+    return (
+      <div className="content">
+        <Form />
+      </div>
+    );
+  }
 }
-
